@@ -46,9 +46,26 @@ function render() {
 
 }
 /////////////////// 6 ///////////////////
+let num1 = 8
+let num2 = 2
+document.getElementById("num1-el").textContent = num1
+document.getElementById("num2-el").textContent = num2
+let sum = document.getElementById("sum-el")
+function add() {
+    sum.textContent = "Sum: " + (num1 + num2)   // or do calculation and set it to a new variable
+}
+function subtract() {
+    sum.textContent = "Sum: " + (num1 - num2)
+}
+function multiply() {
+    sum.textContent = "Sum: " + (num1 * num2)
+}
+function divide() {
+    sum.textContent = "Sum: " + (num1 / num2)
+} 
 
-/////////////////// 1 ///////////////////
+// Don't forget console.log() to debug!! Didn't use it once here.
 
-/////////////////// 1 ///////////////////
+
 
 
